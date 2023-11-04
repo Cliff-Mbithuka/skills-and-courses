@@ -7,26 +7,22 @@
 body{
     background-color: #dfe9f5;
     margin-left: 0px;
-    
+    font-family: Rubik;
 }
 .bigbox{
     height: 100%;
     width: 100%;
-    display: flex;
-
-    
-   
+    display: flex; 
 }
 .left{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: rgba(224, 9, 98, 0.123);
+    background: #fff;
     width: 20%;
     text-decoration: none;
-    list-style: none;
-     
+    list-style: none; 
     bottom: 0;
 }
 li{
@@ -49,10 +45,9 @@ li{
     background-color: rgb(32, 190, 218);
     border-radius: 10px;
     padding: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
-.right{
-    
+.right{ 
     margin-left: 20px;
     width: 80%;
 }
@@ -69,12 +64,18 @@ li{
     padding: 5px;
 }
 .Web-development{
-    background-color: rgba(224, 9, 98, 0.123);
+    background-color: #fff;
    grid-gap: 1.5em;
     margin: 0.5em;
     justify-content: center;
     text-align: center;
     border-radius: 15px;
+}
+.Web-inside span{
+    font-weight: bold;
+}
+.Web-inside p{
+    margin-top: 10px;
 }
 .Web-inside{
     padding: 1em;
@@ -85,23 +86,25 @@ li{
 }
 .button{
     margin-bottom: 1em;
-    border-radius: 10px;
-    border: 3px solid black;
-    padding: .1em;
+    border-radius: 5px;
+    padding: .2em;
     background-color: orangered;
+    color: #fff;
+    
 }
 .button:hover{
-    color:#fff;
+    color: black;
     cursor: pointer;
-    background: blueviolet;
+    
     outline: none;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .options{
-    background-color: rgba(224, 9, 98, 0.123); 
+    background-color: #fff; 
     border-radius: 10px;
     padding: 12px;
+    margin-top: 6px;
 }
 .options-word{
     display: flex;
@@ -122,19 +125,21 @@ li{
 }
 .html{
     margin-right: 20px;
-    background-color: rgb(194, 194, 194);
+    background-color: rgba(245, 242, 242, 0.932);
     border-radius: 10px;
     padding: 0px 60px 0px 10px;
     width: 300px;
+    
 }
 .html p:nth-child(2){
     margin-bottom: 3em;
 }
 .btn{
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
     background-color: black;
     margin-bottom: 10px;
+    padding: 2px;
 }
 .btn:hover{
     cursor: pointer;
@@ -143,4 +148,5 @@ li{
 .html p:nth-child(1){
     font-weight: bold;
     font-size: larger;
+    margin-top: 8px;
 }
